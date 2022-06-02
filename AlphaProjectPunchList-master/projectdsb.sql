@@ -80,7 +80,7 @@ INSERT INTO `projects` VALUES ('7', 'Morrison Project', '7 East Street', 'Duxbur
 -- Table structure for punchlist_details
 -- ----------------------------
 DROP TABLE IF EXISTS `punchlist_details`;
-CREATE TABLE `punchlist_details` (
+TABLE `punchlist_details` (
   `punchlist_detail_id` int(11) NOT NULL AUTO_INCREMENT,
   `punchlist_item_id` int(11) DEFAULT NULL,
   `date` date DEFAULT NULL,
