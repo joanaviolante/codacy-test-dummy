@@ -67,25 +67,6 @@ CREATE TABLE `projects` (
   UNIQUE KEY `idProjects_UNIQUE` (`project_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
--- ----------------------------
--- Records of projects
--- ----------------------------
-INSERT INTO `projects` VALUES ('1', 'Haynes Project', 'East Beach Road', 'Darien', 'CT', '06454', '41.0772', '-73.4687', '203-333-4343', 'https://alphaanywheredemo.s3.amazonaws.com/B38BB4A2-3914-4806-9424-B6EF8C58C0D8_project_photo_j4k9z8ij_A3C1BCE2-2E2C-4C43-AFC7-318751842DFB.jpg', 'Douglas Haynes', '18 Bronson Road', 'Fairfield', 'CT', '06432', 'dsmith@gmail.com', '212-333-4232', '203-433-2334', '203-237-2323');
-INSERT INTO `projects` VALUES ('2', 'Homestead Project', '26 Kent Falls Road', 'Kent ', 'CT', '06880', '41.7248', '-73.4770', '203-237-9080', 'http://alphaanywheredemo.s3.amazonaws.com/p2/p2_img3.jpg', 'John and May Homestead', '515 Park Avenue', 'New York', 'NY', '10065', 'jhomestead@gmail.com', '212-322-4343', '203-227-3434', '203-566-3434');
-INSERT INTO `projects` VALUES ('3', 'Harrison Project', '12 Blue View Drive', 'Lincoln', 'VT', '05340', '44.1059', '-72.9971', '802-444-5454', 'https://alphaanywheredemo.s3.amazonaws.com/B38BB4A2-3914-4806-9424-B6EF8C58C0D8_project_photo_j4ka08ie_703AD86C-4ED8-432B-9017-91FA2127680E.jpg', 'John and Lisa Harrison', '102 Redding Rd.', 'Fairlfield', 'CT', '06430', 'jharrison@gmail.com', '212-355-6767', '203-235-2323', '203-255-6565');
-INSERT INTO `projects` VALUES ('4', 'Clapp Project', '674 Washington Street', 'Duxbury', 'MA', '02332', '42.0418', '-70.6723', '781-234-5689', 'http://alphaanywheredemo.s3.amazonaws.com/p4/p4_img1.jpg', 'Michael and Martha Clapp', '228 Commonwealth Ave.', 'Boston', 'MA', '02116', 'mclapp@gmail.com', '617-234-5332', '617-222-8964', '617-546-2317');
-INSERT INTO `projects` VALUES ('7', 'Morrison Project', '7 East Street', 'Duxbury', 'MA', '02332', '42.0418', '-70.6723', '203-259-0021', 'https://alphaanywheredemo.s3.amazonaws.com/B38BB4A2-3914-4806-9424-B6EF8C58C0D8_project_photo_j4jzb40f_76F7607B-4F66-4734-9046-1F7648DF2E81.jpg', 'Robert Morrison', '80 Bronson Road', 'Fairfield', 'CT', '06430', 'rem@apple.com', '772-234-3232', null, null);
-
--- ----------------------------
--- Table structure for punchlist_details
--- ----------------------------
-DROP TABLE IF EXISTS `punchlist_details`;
-CREATE TABLE `punchlist_details` (
-  `punchlist_detail_id` int(11) NOT NULL AUTO_INCREMENT,
-  `punchlist_item_id` int(11) DEFAULT NULL,
-  `date` date DEFAULT NULL,
-  `notes` text,
-  `audio_notes` varchar(1024) DEFAULT NULL,
   PRIMARY KEY (`punchlist_detail_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 
