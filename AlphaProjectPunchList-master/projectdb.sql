@@ -18,8 +18,8 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for categories
 -- ----------------------------
-DROP TABLE IF EXISTS `categories`;
-CREATE TABLE `categories` (
+DROP TABLE IF EXISTS ``;
+CREATE TABLE `` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `category` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
