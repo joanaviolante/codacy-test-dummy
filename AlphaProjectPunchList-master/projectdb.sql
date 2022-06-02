@@ -13,23 +13,7 @@ File Encoding         : 65001
 Date: 2017-07-26 17:25:37
 */
 
-SET FOREIGN_KEY_CHECKS=0;
-
--- ----------------------------
--- Table structure for categories
--- ----------------------------
-DROP TABLE IF EXISTS ``;
-CREATE TABLE `` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `category` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of categories
--- ----------------------------
-INSERT INTO `categories` VALUES ('1', 'Plumbing');
-INSERT INTO `categories` VALUES ('2', 'Electrical');
+S
 INSERT INTO `categories` VALUES ('3', 'Doors');
 INSERT INTO `categories` VALUES ('4', 'Windows');
 INSERT INTO `categories` VALUES ('5', 'Flooring');
@@ -168,9 +152,7 @@ INSERT INTO `punchlist_items` VALUES ('43', '1', 'HVAC', 'Check all labels on bo
 -- ----------------------------
 -- Table structure for status
 -- ----------------------------
-DROP TABLE IF EXISTS `status`;
-CREATE TABLE `status` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+ENT,
   `status` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
